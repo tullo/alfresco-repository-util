@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>tullo Node Unlocker</shortname>
+    <url>/net/tullo/repo/util/unlocker</url>
+    <authentication>admin</authentication>
+    <format default="html">extension</format>
+    <family>Admin</family>
+</webscript>
+
