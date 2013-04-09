@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>net.tullo</groupId>
-        <artifactId>alfresco-repository-util-parent</artifactId>
+        <artifactId>alfresco-repository-util</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>alfresco-repository-util</artifactId>
+    <artifactId>alfresco-repository-util-repo</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
