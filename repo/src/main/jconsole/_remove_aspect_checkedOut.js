@@ -7,7 +7,7 @@ for each(var node in nodes)
 
     logger.log("checkedOut: " + node.name + " (" + node.typeShort + ") " + node.nodeRef);
 
-    if (nodeRef === String(node.nodeRef))
+    if (nodeRef === String(node.nodeRef) || nodeRef === "all")
     {
         if (node.hasAspect("cm:checkedOut"))
         {
@@ -22,6 +22,9 @@ for each(var node in nodes)
                 node.save();
                 logger.log("..removing workingcopy: " + workingcopy.name);
                 workingcopy.remove();
+                logger.log("==================================================================");
+                logger.log("wait a few seconds - give SOLR a chance to update the search index");
+                logger.log("==================================================================");
             }
         }
     }
