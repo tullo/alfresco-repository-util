@@ -15,3 +15,9 @@ Clean up the remaining mess by adding the the jconsole scripts to 'Data Dictiona
 
 e.g. run _remove_aspect_checkedOut.js to clean up after a user that forgot to release the lock (by close, check-in)
 on a node after online-edit by an MS Office app
+
+### License
+
+Copyright © 2013 Andreas Amstutz (anda@redpill-linpro.com)
+
+Distributed under the <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.da">Creative Commons Navngivelse 3.0 Unported License</a>
